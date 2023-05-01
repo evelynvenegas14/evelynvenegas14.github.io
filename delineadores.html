@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mystique - Delineadores</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div>
+			<img class="logo" src="/images/mystique.jpeg" alt="Mystique">
+			<a href="index.html"><h1 class="logotext">Mystique</h1></a>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="productos.html">Productos</a></li>
+				<li><a href="tutoriales.html">Tutoriales</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<h1 class="main-title">Delineadores</h1>
+	<main>
+		<div class="product-container">
+			<div class="product-image-container">
+			<img class="product-image image" src="images/eyeliner2.png" alt="Imagen del producto">
+			<img class="product-image image" src="images/eyeliner_3.png" alt="Imagen del producto">
+		</div>
+		<div class="description">
+		<h2>Para imponer con la mirada</h2>
+		<p>Nuestro delineador de ojos a base de ingredientes naturales es resistente<br>  
+			al agua y soporta los párpados grasos. Su aplicación suave y duración <br> 
+			de todo el día te permitirán lucir una mirada intensa y definida sin <br> 
+			preocupaciones. ¡Pruébalo y conviértelo en tu nuevo aliado de belleza! <br>
+			<br>
+			¡Checa nuestros <a class="price" href="images/colores delineadores.jpeg">colores</a> disponibles!
+		</p>
+		<p class="price">Precio: $75 MXN</p>
+		<button>Agregar al carrito</button>
+		</div>
+	</main>
+    <footer>
+		<p>Derechos reservados &copy; Mystique 2023</p>
+        <p>Vegan. Cruelty Free</p>
+        <p>By Evelyn Venegas</p>
+	</footer>
+</body>
+</html>
+
+	<!--<div class="product-modal">
+			<img class="product-modal-image" src="images/eyeliner2.png" alt="Product Image 1">
+			<span class="product-modal-close">&times;</span>
+		  </div>-->
+		<!--<script>
+					// Get the modal
+					const modal = document.querySelector(".product-modal");
+
+					// Get the image and insert it inside the modal
+					const modalImg = document.querySelector(".modal-content");
+
+					// Get the close button
+					const closeBtn = document.querySelector(".product-modal-close");
+
+					// Function to show the modal with the clicked image
+					function showModal(imgSrc) {
+					modal.style.display = "block";
+					modalImg.src = imgSrc;
+					document.body.style.overflow = "hidden"; // prevent scrolling while modal is open
+					modal.classList.add("active"); // add the active class to the modal
+					}
+
+					// Function to hide the modal
+					function hideModal() {
+					modal.style.display = "none";
+					document.body.style.overflow = "visible"; // enable scrolling when modal is closed
+					modal.classList.remove("active"); // remove the active class from the modal
+					}
+
+					// Get all the images and add a click event listener to each one
+					const images = document.querySelectorAll(".image");
+					images.forEach((image) => {
+					image.addEventListener("click", () => {
+						const imgSrc = image.getAttribute("src");
+						showModal(imgSrc);
+					});
+					});
+
+					// Add a click event listener to the close button
+					closeBtn.addEventListener("click", hideModal);
+
+					// Add a click event listener to the modal itself, to close it when the user clicks outside of the image
+					modal.addEventListener("click", (event) => {
+					if (event.target === modal) {
+						hideModal();
+					}
+					});
+		</script>-->
